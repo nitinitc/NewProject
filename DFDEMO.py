@@ -16,4 +16,5 @@ if __name__ == '__main__':
     # Read the CSV file with the defined schema
     ordersdf = spark.read.option("header", "true").schema(orderSchema).csv("/user/ec2-user/UKUSMarHDFS/nitin/input.csv")
       # Show the first 5 rows of the dataframe
+    print("Testing Webhook")
     ordersdf.show(5)
