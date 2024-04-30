@@ -18,7 +18,7 @@ def clean_and_validate(row):
 
     # Other cleansing/validation steps can be added here, such as checking for invalid values, data formatting, etc.
     return row
-
+#
 # Function to check for missing values
 def check_missing_values(df):
     missing_values = df.isnull().sum()
