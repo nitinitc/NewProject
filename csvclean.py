@@ -36,7 +36,7 @@ def check_duplicate_records(df):
 
 # Remove duplicate records from the DataFrame
 df = df.drop_duplicates()
-
+# Modified
 # Define the output CSV file path
 output_csv_file_path = "/home/ec2-user/UKUSMar/nitin/sparkcode/cleaned_member_schemes.csv"
 
